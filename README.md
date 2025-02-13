@@ -15,8 +15,8 @@ The goal of this repository is to practice, explore, and refine automation skill
 🚀 Getting Started
 Clone the repo and start exploring different automation techniques!
 
- # git clone https://github.com/yourusername/PythonAutomationLab.git
- # cd PythonAutomationLab
+ git clone https://github.com/yourusername/PythonAutomationLab.git
+ cd PythonAutomationLab
 
 Feel free to contribute or suggest new automation ideas! Happy coding! 🎉
 
