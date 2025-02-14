@@ -12,17 +12,18 @@ driver = webdriver.Chrome(service=service)
 driver.maximize_window()
 
 driver.get("https://parabank.parasoft.com/parabank/index.htm")
-print(driver.title)  # Captures the Title
 url1 = driver.title
-print(driver.current_url)
-driver.get("https://magento.softwaretestingboard.com/")
-print(driver.title)  # Captures the Title
+print("URL of the landing page - ",driver.title, driver.current_url)
+driver.get("https://google.com/")
 url2 = driver.title
-print(driver.current_url)
+print("URL of the newly loaded page - ",driver.title, driver.current_url)
 assert url1 != url2
-driver.minimize_window() #To minimize the current window - driver.manage().window().minimize()
 driver.back() #diver.navigate().back() in selenium – To go back to the old page
 driver.refresh()  # Refresh the loaded page
-print(driver.title, driver.current_url)
+print("URL after the it is refresahed back - ",driver.title, driver.current_url)
+driver.forward() 
+driver.refresh() 
+print("URL after the it is refresahed forward - ",driver.title, driver.current_url)
+driver.minimize_window() #To minimize the current window - driver.manage().window().minimize()
 driver.close()
 
