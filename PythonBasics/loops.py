@@ -14,3 +14,21 @@ while it>-10:
         print(it)
     it = it-1
     
+
+it = 4
+while it>0:
+    if it == 3:
+        print(it)
+        break
+    it = it-1
+
+it = 4
+while it>0:
+    if it == 3:
+        it = it-1
+        continue
+    print(it)
+    it = it-1
+
+    
+    
