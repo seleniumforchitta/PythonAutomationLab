@@ -20,8 +20,18 @@ print("The sum is = ", sum)
 
 n = 100
 sum = 0
-while n>0:
-    sum = sum+n
+while n>1:
     n=n-1
+    if n%10==0:
+        continue
+    sum = sum+n
 print("The sum is =", sum)
 
+# while with else 
+counter = 0
+while counter<3:
+    print("inside loop")
+    counter = counter+1
+else:
+    print("inside else")
+    
