@@ -18,6 +18,24 @@ for i in range(len(num)):
     sum = sum + num[i]
 print("The sum is = ", sum)
 
+for i in range(0,10):
+    if i==5:
+        continue
+    print(i,"*")
+
+
+cars = ["swift", "creta", "i10"]
+for i in cars:
+    print(i)
+    for j in i:
+        print(j)
+
+lang = "Python"
+for i in lang:
+    print(i)
+    
+    
+    
 n = 100
 sum = 0
 while n>1:
@@ -35,3 +53,8 @@ while counter<3:
 else:
     print("inside else")
     
+
+num = int(input("Enter a number - "))
+while num !=0:
+    print(num)
+    num = int(input("Enter a number - "))
