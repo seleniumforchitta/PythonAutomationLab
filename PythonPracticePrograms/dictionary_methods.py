@@ -29,3 +29,4 @@ print(dict1) # {2: 'Ram', 3: 'Hari', 5: 'Tamsen'}
 new_dict = {1:'Kuch Bhi', 2:'Changed'}
 dict1.update(new_dict)
 print(dict1) # {2: 'Changed', 3: 'Hari', 5: 'Tamsen', 1: 'Kuch Bhi'}
+
